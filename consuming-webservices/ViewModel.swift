@@ -10,7 +10,7 @@ import Foundation
 
 class ViewModel {
     
-    let deviceId = "220025001651353530333533"
+    let deviceId = "470028000c51353532383735" // "220025001651353530333533"
     var toggleURL: String {
         return "https://api.particle.io/v1/devices/\(deviceId)/led/?access_token=1cb212aac21fba67dbe6fea474b896b11cc2af59"
     }
